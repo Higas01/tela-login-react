@@ -1,0 +1,82 @@
+.h1_form {
+    color: #FFF;
+    text-align: center;
+    bottom: 12rem;
+    font-size: 6rem;
+
+}
+
+.div_input {
+    margin: 2rem;
+}
+
+
+input[type=text],
+input[type=password] {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 0.15rem #FFF solid;
+    margin: 8rem 0 2.5rem;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 45rem;
+    height: 4rem;
+}
+
+input[type=button] {
+    margin-top: 4rem;
+    background: none;
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 6rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.container_input_btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fa_user {
+    font-size: 2.5rem;
+    position: absolute;
+    color: #fff;
+}
+
+.fa_lock {
+    font-size: 2.5rem;
+    position: absolute;
+    color: #fff;
+}
+
+@media (max-width: 740px) {
+    .h1_form {
+        font-size: 5rem;
+    
+    }    
+    input[type=text],
+    input[type=password] {
+        max-width: 35rem;
+
+    }
+}
+
+@media (max-width: 380px) {
+
+    input[type=text],
+    input[type=password] {
+        max-width: 30rem;
+
+    }
+
+}
+
